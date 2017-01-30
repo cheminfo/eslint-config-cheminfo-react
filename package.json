@@ -1,0 +1,26 @@
+{
+  "name": "eslint-config-neptun-react",
+  "version": "0.0.0",
+  "description": "Shared ESLint config for projects using React",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neptunjs/eslint-config-react.git"
+  },
+  "keywords": [],
+  "author": "Michaël Zasso",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/neptunjs/eslint-config-react/issues"
+  },
+  "homepage": "https://github.com/neptunjs/eslint-config-react#readme",
+  "peerDependencies": {
+    "eslint": ">=3.14.1",
+    "eslint-config-cheminfo": ">=1.6.0",
+    "eslint-plugin-react": ">=6.9.0"
+  },
+  "dependencies": {}
+}
