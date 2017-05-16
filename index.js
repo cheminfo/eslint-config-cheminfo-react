@@ -20,7 +20,6 @@ module.exports = {
     rules: {
         'react/jsx-curly-spacing': 'error',
         'react/jsx-equals-spacing': 'error',
-        'react/jsx-space-before-closing': 'error',
         'react/jsx-tag-spacing': 'error',
         'react/jsx-uses-react': 'error',
         'react/jsx-uses-vars': 'error'
