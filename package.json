@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/neptunjs/eslint-config-react.git"
+    "url": "git+https://github.com/neptunejs/eslint-config-react.git"
   },
   "keywords": [],
   "author": "Michaël Zasso",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/neptunjs/eslint-config-react/issues"
+    "url": "https://github.com/neptunejs/eslint-config-react/issues"
   },
-  "homepage": "https://github.com/neptunjs/eslint-config-react#readme",
+  "homepage": "https://github.com/neptunejs/eslint-config-react#readme",
   "peerDependencies": {
     "eslint": ">=3.14.1",
     "eslint-config-cheminfo": ">=1.6.0",
