@@ -18,6 +18,7 @@ module.exports = {
         'react'
     ],
     rules: {
+        'jsx-quotes': 'error',
         'react/jsx-closing-bracket-location': 'error',
         'react/jsx-closing-tag-location': 'error',
         'react/jsx-curly-spacing': 'error',
@@ -46,6 +47,7 @@ module.exports = {
         'react/no-unused-state': 'error',
         'react/no-will-update-set-state': 'error',
         'react/prefer-stateless-function': ['error', {ignorePureComponents: true}],
+        'react/require-render-return': 'error',
         'react/self-closing-comp': 'error',
         'react/sort-comp': 'error',
         'react/style-prop-object': 'error',
