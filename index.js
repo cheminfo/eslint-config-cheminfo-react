@@ -40,6 +40,7 @@ module.exports = {
         'react/no-danger-with-children': 1,
         'react/no-did-update-set-state': 2,
         'react/no-direct-mutation-state': 2,
+        'react/no-multi-comp': 2,
         'react/no-redundant-should-component-update': 2,
         'react/no-render-return-value': 2,
         'react/no-typos': 2,
