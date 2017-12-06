@@ -27,6 +27,7 @@ module.exports = {
         'react/jsx-indent-props': 2,
         'react/jsx-key': 2,
         'react/jsx-no-bind': 1,
+        'react/jsx-no-undef': 2,
         'react/jsx-wrap-multilines': 2,
         'react/jsx-tag-spacing': 2,
         'react/jsx-uses-react': 2,
