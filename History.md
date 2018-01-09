@@ -1,3 +1,8 @@
+<a name="2.3.1"></a>
+## [2.3.1](https://github.com/neptunejs/eslint-config-react/compare/v2.3.0...v2.3.1) (2018-01-09)
+
+
+
 <a name="2.3.0"></a>
 # [2.3.0](https://github.com/neptunejs/eslint-config-react/compare/v2.2.0...v2.3.0) (2018-01-09)
 
