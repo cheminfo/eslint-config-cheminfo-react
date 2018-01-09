@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-neptune-react",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "description": "Shared ESLint config for projects using React",
   "main": "index.js",
   "files": [
