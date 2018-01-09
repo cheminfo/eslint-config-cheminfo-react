@@ -18,14 +18,14 @@ module.exports = {
         'react'
     ],
     rules: {
-        'indent': [2, 2, {SwitchCase: 1}]
+        'indent': [2, 2, {SwitchCase: 1}],
         'jsx-quotes': ['error', 'prefer-double'],
         'react/jsx-closing-bracket-location': 2,
         'react/jsx-closing-tag-location': 2,
         'react/jsx-curly-spacing': 2,
         'react/jsx-equals-spacing': 2,
-        'react/jsx-indent': [2, 2]
-        'react/jsx-indent-props': [2, 2]
+        'react/jsx-indent': [2, 2],
+        'react/jsx-indent-props': [2, 2],
         'react/jsx-key': 2,
         'react/jsx-no-bind': 1,
         'react/jsx-no-undef': 2,
