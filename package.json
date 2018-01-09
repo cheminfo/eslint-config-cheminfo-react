@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-neptun-react",
+  "name": "eslint-config-neptune-react",
   "version": "2.1.0",
   "description": "Shared ESLint config for projects using React",
   "main": "index.js",
@@ -21,9 +21,8 @@
   },
   "homepage": "https://github.com/neptunejs/eslint-config-react#readme",
   "peerDependencies": {
-    "eslint": ">=3.14.1",
-    "eslint-config-cheminfo": ">=1.6.0",
-    "eslint-plugin-react": ">=6.9.0"
+    "eslint": ">=4.15.0",
+    "eslint-config-cheminfo": ">=1.10.0"
   },
   "dependencies": {}
 }
