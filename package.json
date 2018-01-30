@@ -22,7 +22,7 @@
   "homepage": "https://github.com/neptunejs/eslint-config-react#readme",
   "peerDependencies": {
     "eslint": ">=4.15.0",
-    "eslint-config-cheminfo": ">=1.10.0"
+    "eslint-config-cheminfo": ">=1.15.1"
   },
   "dependencies": {}
 }
