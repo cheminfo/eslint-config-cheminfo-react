@@ -9,6 +9,7 @@ npm install --save-dev \
   eslint-config-neptune-react \
   eslint \
   eslint-config-cheminfo \
+  eslint-plugin-import \
   eslint-plugin-jest \
   eslint-plugin-react
 ```
