@@ -20,7 +20,7 @@ module.exports = {
     rules: {
         'indent': [2, 2, {SwitchCase: 1}],
         'jsx-quotes': ['error', 'prefer-double'],
-        'import/no-unassigned-import': ['warn', { allow: ['*.css'] }],
+        'import/no-unassigned-import': ['warn', { allow: ['**/*.css'] }],
         'react/jsx-closing-bracket-location': 2,
         'react/jsx-closing-tag-location': 2,
         'react/jsx-curly-spacing': 2,
