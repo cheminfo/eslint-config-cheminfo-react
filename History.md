@@ -1,3 +1,13 @@
+<a name="2.4.0"></a>
+# [2.4.0](https://github.com/neptunejs/eslint-config-react/compare/v2.3.3...v2.4.0) (2018-06-26)
+
+
+### Features
+
+* upgrade to ESLint 5 and switch ecmaVersion to 2018 ([8abd98d](https://github.com/neptunejs/eslint-config-react/commit/8abd98d))
+
+
+
 <a name="2.3.3"></a>
 ## [2.3.3](https://github.com/neptunejs/eslint-config-react/compare/v2.3.2...v2.3.3) (2018-01-30)
 
