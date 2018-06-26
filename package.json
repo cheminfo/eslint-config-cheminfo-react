@@ -21,8 +21,8 @@
   },
   "homepage": "https://github.com/neptunejs/eslint-config-react#readme",
   "peerDependencies": {
-    "eslint": ">=4.15.0",
-    "eslint-config-cheminfo": ">=1.15.1"
+    "eslint": ">=5.0.1",
+    "eslint-config-cheminfo": ">=1.18.0"
   },
   "dependencies": {}
 }
