@@ -5,7 +5,7 @@ Shared ESLint config for projects using React.
 ## Installation
 
 ```
-npm install --save-dev eslint-config-neptune-react eslint eslint-config-cheminfo eslint-plugin-import eslint-plugin-jest eslint-plugin-react
+npx install-peerdeps --dev eslint-config-neptune-react
 ```
 
 ## Usage
