@@ -1,3 +1,14 @@
+<a name="2.5.0"></a>
+# [2.5.0](https://github.com/neptunejs/eslint-config-react/compare/v2.4.0...v2.5.0) (2018-10-30)
+
+
+### Features
+
+* add new jsx rules ([#1](https://github.com/neptunejs/eslint-config-react/issues/1)) ([fa0c473](https://github.com/neptunejs/eslint-config-react/commit/fa0c473))
+* finish adding new rules ([#2](https://github.com/neptunejs/eslint-config-react/issues/2)) ([af98fa6](https://github.com/neptunejs/eslint-config-react/commit/af98fa6))
+
+
+
 <a name="2.4.0"></a>
 # [2.4.0](https://github.com/neptunejs/eslint-config-react/compare/v2.3.3...v2.4.0) (2018-06-26)
 
