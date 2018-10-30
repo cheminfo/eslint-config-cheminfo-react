@@ -59,7 +59,7 @@ module.exports = {
     'react/prefer-stateless-function': [2, { ignorePureComponents: true }],
     'react/prop-types': 0,
     'react/react-in-jsx-scope': 2,
-    'react/require-default-props': 2,
+    'react/require-default-props': 0,
     'react/require-optimization': 0,
     'react/require-render-return': 2,
     'react/self-closing-comp': 2,
