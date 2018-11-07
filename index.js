@@ -31,7 +31,7 @@ module.exports = {
     'react/forbid-component-props': 0,
     'react/forbid-dom-props': 0,
     'react/forbid-elements': 0,
-    'react/forbid-prop-types': 2,
+    'react/forbid-prop-types': 0,
     'react/forbid-foreign-prop-types': 2,
     'react/no-access-state-in-setstate': 2,
     'react/no-array-index-key': 2,
