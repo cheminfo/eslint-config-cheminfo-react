@@ -1,3 +1,13 @@
+<a name="2.5.1"></a>
+## [2.5.1](https://github.com/neptunejs/eslint-config-react/compare/v2.5.0...v2.5.1) (2018-11-07)
+
+
+### Bug Fixes
+
+* allow component names with all caps ([8ad6d1a](https://github.com/neptunejs/eslint-config-react/commit/8ad6d1a))
+
+
+
 <a name="2.5.0"></a>
 # [2.5.0](https://github.com/neptunejs/eslint-config-react/compare/v2.4.0...v2.5.0) (2018-10-30)
 
