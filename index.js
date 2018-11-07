@@ -90,7 +90,7 @@ module.exports = {
     'react/jsx-no-target-blank': 2,
     'react/jsx-no-undef': 2,
     'react/jsx-one-expression-per-line': [2, { allow: 'single-child' }],
-    'react/jsx-pascal-case': 2,
+    'react/jsx-pascal-case': [2, { allowAllCaps: true }],
     'react/jsx-props-no-multi-spaces': 2,
     'react/jsx-sort-default-props': 0,
     'react/jsx-sort-props': 0,
