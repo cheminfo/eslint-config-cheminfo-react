@@ -1,3 +1,17 @@
+# [2.6.0](https://github.com/neptunejs/eslint-config-react/compare/v2.5.2...v2.6.0) (2018-12-11)
+
+
+### Bug Fixes
+
+* disable no-multi-comp ([a93f870](https://github.com/neptunejs/eslint-config-react/commit/a93f870))
+
+
+### Features
+
+* update base rules ([c9f0226](https://github.com/neptunejs/eslint-config-react/commit/c9f0226))
+
+
+
 ## [2.5.2](https://github.com/neptunejs/eslint-config-react/compare/v2.5.1...v2.5.2) (2018-11-07)
 
 
