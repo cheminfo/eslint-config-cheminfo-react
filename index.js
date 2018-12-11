@@ -42,7 +42,7 @@ module.exports = {
     'react/no-direct-mutation-state': 'error',
     'react/no-find-dom-node': 'error',
     'react/no-is-mounted': 'error',
-    'react/no-multi-comp': 'error',
+    'react/no-multi-comp': 'off',
     'react/no-redundant-should-component-update': 'error',
     'react/no-render-return-value': 'error',
     'react/no-set-state': 'off',
@@ -56,7 +56,10 @@ module.exports = {
     'react/no-unused-state': 'error',
     'react/no-will-update-set-state': 'error',
     'react/prefer-es6-class': 'error',
-    'react/prefer-stateless-function': ['error', { ignorePureComponents: true }],
+    'react/prefer-stateless-function': [
+      'error',
+      { ignorePureComponents: true }
+    ],
     'react/prop-types': 'off',
     'react/react-in-jsx-scope': 'error',
     'react/require-default-props': 'off',
@@ -82,7 +85,10 @@ module.exports = {
     'react/jsx-indent-props': ['error', 2],
     'react/jsx-key': 'error',
     'react/jsx-max-depth': 'off',
-    'react/jsx-max-props-per-line': ['error', { maximum: 1, when: 'multiline' }],
+    'react/jsx-max-props-per-line': [
+      'error',
+      { maximum: 1, when: 'multiline' }
+    ],
     'react/jsx-no-bind': 'warn',
     'react/jsx-no-comment-textnodes': 'error',
     'react/jsx-no-duplicate-props': ['error', { ignoreCase: true }],
