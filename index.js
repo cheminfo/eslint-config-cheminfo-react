@@ -13,7 +13,7 @@ module.exports = {
     },
   },
   extends: ['cheminfo', 'prettier/react'],
-  plugins: ['react'],
+  plugins: ['react', 'react-hooks'],
   settings: {
     react: {
       version: 'detect',
@@ -22,6 +22,9 @@ module.exports = {
   },
   rules: {
     'import/no-unassigned-import': ['warn', { allow: ['**/*.css'] }],
+
+    'react-hooks/rules-of-hooks': 'error',
+    'react-hooks/exhaustive-deps': 'warn',
 
     'react/boolean-prop-naming': 'off',
     'react/button-has-type': 'error',
