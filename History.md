@@ -1,3 +1,7 @@
+# [3.0.0](https://github.com/cheminfo/eslint-config-cheminfo-react/compare/v2.6.0...v3.0.0) (2019-07-24)
+
+
+
 # [2.6.0](https://github.com/neptunejs/eslint-config-react/compare/v2.5.2...v2.6.0) (2018-12-11)
 
 
