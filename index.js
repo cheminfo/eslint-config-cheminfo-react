@@ -2,26 +2,26 @@
 
 module.exports = {
   env: {
-    es6: true,
-    browser: true
+    browser: true,
+    node: false,
   },
   parserOptions: {
-    ecmaVersion: '2018',
+    ecmaVersion: '2019',
     sourceType: 'module',
     ecmaFeatures: {
-      jsx: true
-    }
+      jsx: true,
+    },
   },
-  extends: 'eslint-config-cheminfo',
+  extends: ['cheminfo', 'prettier/react'],
   plugins: ['react'],
   settings: {
     react: {
-      version: '16.6'
-    }
+      version: 'detect',
+    },
+    linkComponents: [{ name: 'Link', linkAttribute: 'to' }],
   },
   rules: {
     'import/no-unassigned-import': ['warn', { allow: ['**/*.css'] }],
-    'jsx-quotes': ['error', 'prefer-double'],
 
     'react/boolean-prop-naming': 'off',
     'react/button-has-type': 'error',
@@ -34,7 +34,7 @@ module.exports = {
     'react/forbid-prop-types': 'off',
     'react/forbid-foreign-prop-types': 'error',
     'react/no-access-state-in-setstate': 'error',
-    'react/no-array-index-key': 'error',
+    'react/no-array-index-key': 'warn',
     'react/no-danger': 'warn',
     'react/no-danger-with-children': 'warn',
     'react/no-deprecated': 'error',
@@ -58,7 +58,7 @@ module.exports = {
     'react/prefer-es6-class': 'error',
     'react/prefer-stateless-function': [
       'error',
-      { ignorePureComponents: true }
+      { ignorePureComponents: true },
     ],
     'react/prop-types': 'off',
     'react/react-in-jsx-scope': 'error',
@@ -72,37 +72,21 @@ module.exports = {
     'react/void-dom-elements-no-children': 'error',
 
     'react/jsx-boolean-value': 'off',
-    'react/jsx-child-element-spacing': 'error',
-    'react/jsx-closing-bracket-location': 'error',
-    'react/jsx-closing-tag-location': 'error',
-    'react/jsx-curly-brace-presence': 'error',
-    'react/jsx-curly-spacing': 'error',
-    'react/jsx-equals-spacing': 'error',
     'react/jsx-filename-extension': 'off',
-    'react/jsx-first-prop-new-line': ['error', 'multiline-multiprop'],
     'react/jsx-handler-names': 'off',
-    'react/jsx-indent': ['error', 2],
-    'react/jsx-indent-props': ['error', 2],
     'react/jsx-key': 'error',
     'react/jsx-max-depth': 'off',
-    'react/jsx-max-props-per-line': [
-      'error',
-      { maximum: 1, when: 'multiline' }
-    ],
-    'react/jsx-no-bind': 'warn',
+    'react/jsx-no-bind': 'off',
     'react/jsx-no-comment-textnodes': 'error',
     'react/jsx-no-duplicate-props': ['error', { ignoreCase: true }],
     'react/jsx-no-literals': 'off',
     'react/jsx-no-target-blank': 'error',
     'react/jsx-no-undef': 'error',
-    'react/jsx-one-expression-per-line': ['error', { allow: 'single-child' }],
     'react/jsx-pascal-case': ['error', { allowAllCaps: true }],
-    'react/jsx-props-no-multi-spaces': 'error',
+    'react/jsx--no-multi-spaces': 'error',
     'react/jsx-sort-default-props': 'off',
     'react/jsx-sort-props': 'off',
-    'react/jsx-tag-spacing': 'error',
     'react/jsx-uses-react': 'error',
     'react/jsx-uses-vars': 'error',
-    'react/jsx-wrap-multilines': 'error'
-  }
+  },
 };
