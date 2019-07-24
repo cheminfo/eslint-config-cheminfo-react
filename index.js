@@ -86,7 +86,6 @@ module.exports = {
     'react/jsx-no-target-blank': 'error',
     'react/jsx-no-undef': 'error',
     'react/jsx-pascal-case': ['error', { allowAllCaps: true }],
-    'react/jsx--no-multi-spaces': 'error',
     'react/jsx-sort-default-props': 'off',
     'react/jsx-sort-props': 'off',
     'react/jsx-uses-react': 'error',
