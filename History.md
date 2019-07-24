@@ -1,3 +1,12 @@
+## [3.0.2](https://github.com/cheminfo/eslint-config-cheminfo-react/compare/v3.0.1...v3.0.2) (2019-07-24)
+
+
+### Bug Fixes
+
+* remove bogus rule ([6412534](https://github.com/cheminfo/eslint-config-cheminfo-react/commit/6412534))
+
+
+
 ## [3.0.1](https://github.com/cheminfo/eslint-config-cheminfo-react/compare/v3.0.0...v3.0.1) (2019-07-24)
 
 
