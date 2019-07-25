@@ -5,6 +5,9 @@ module.exports = {
     browser: true,
     node: false,
   },
+  globals: {
+    process: true, // For process.env
+  },
   parserOptions: {
     ecmaVersion: '2019',
     sourceType: 'module',
@@ -21,6 +24,8 @@ module.exports = {
     linkComponents: [{ name: 'Link', linkAttribute: 'to' }],
   },
   rules: {
+    'no-process-env': 'off',
+
     'import/no-unassigned-import': ['warn', { allow: ['**/*.css'] }],
 
     'react-hooks/rules-of-hooks': 'error',
