@@ -1,3 +1,12 @@
+## [3.0.3](https://github.com/cheminfo/eslint-config-cheminfo-react/compare/v3.0.2...v3.0.3) (2019-07-25)
+
+
+### Bug Fixes
+
+* allow process.env ([cc7874d](https://github.com/cheminfo/eslint-config-cheminfo-react/commit/cc7874d))
+
+
+
 ## [3.0.2](https://github.com/cheminfo/eslint-config-cheminfo-react/compare/v3.0.1...v3.0.2) (2019-07-24)
 
 
