@@ -26,7 +26,10 @@ module.exports = {
   rules: {
     'no-process-env': 'off',
 
-    'import/no-unassigned-import': ['warn', { allow: ['**/*.css'] }],
+    'import/no-unassigned-import': [
+      'warn',
+      { allow: ['**/*.css', 'react-app-polyfill/*'] },
+    ],
 
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
