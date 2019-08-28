@@ -1,3 +1,12 @@
+# [3.1.0](https://github.com/cheminfo/eslint-config-cheminfo-react/compare/v3.0.4...v3.1.0) (2019-08-28)
+
+
+### Features
+
+* move to eslint-plugin-react-hooks@2 ([54b227c](https://github.com/cheminfo/eslint-config-cheminfo-react/commit/54b227c))
+
+
+
 ## [3.0.4](https://github.com/cheminfo/eslint-config-cheminfo-react/compare/v3.0.3...v3.0.4) (2019-07-26)
 
 
