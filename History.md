@@ -1,3 +1,12 @@
+## [3.1.1](https://github.com/cheminfo/eslint-config-cheminfo-react/compare/v3.1.0...v3.1.1) (2019-11-04)
+
+
+### Bug Fixes
+
+* update jest plugin ([97e9b11](https://github.com/cheminfo/eslint-config-cheminfo-react/commit/97e9b116be51839cb476574ec86e77160dbdec32))
+
+
+
 # [3.1.0](https://github.com/cheminfo/eslint-config-cheminfo-react/compare/v3.0.4...v3.1.0) (2019-08-28)
 
 
