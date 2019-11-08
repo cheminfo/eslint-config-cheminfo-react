@@ -1,3 +1,12 @@
+## [3.1.2](https://github.com/cheminfo/eslint-config-cheminfo-react/compare/v3.1.1...v3.1.2) (2019-11-08)
+
+
+### Bug Fixes
+
+* allow node globals in tests ([083ee18](https://github.com/cheminfo/eslint-config-cheminfo-react/commit/083ee18c94eaa41cd6acb6cbcfed3f257686c815))
+
+
+
 ## [3.1.1](https://github.com/cheminfo/eslint-config-cheminfo-react/compare/v3.1.0...v3.1.1) (2019-11-04)
 
 
