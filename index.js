@@ -23,6 +23,17 @@ module.exports = {
     },
     linkComponents: [{ name: 'Link', linkAttribute: 'to' }],
   },
+  overrides: [
+    {
+      files: [
+        "**/__tests__/**/*.{js,jsx,ts,tsx}",
+        "*.test.{js,jsx,ts,tsx}",
+      ],
+      env: {
+        node: true,
+      },
+    },
+  ],
   rules: {
     'no-process-env': 'off',
 
