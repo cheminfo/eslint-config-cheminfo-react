@@ -1,3 +1,17 @@
+# [4.0.0](https://github.com/cheminfo/eslint-config-cheminfo-react/compare/v3.1.2...v4.0.0) (2020-03-27)
+
+
+### chore
+
+* update dependencies ([d584395](https://github.com/cheminfo/eslint-config-cheminfo-react/commit/d584395397e88a421e7117873e7ed83a7d2ea252))
+
+
+### BREAKING CHANGES
+
+* Breaking changes in base config
+
+
+
 ## [3.1.2](https://github.com/cheminfo/eslint-config-cheminfo-react/compare/v3.1.1...v3.1.2) (2019-11-08)
 
 
