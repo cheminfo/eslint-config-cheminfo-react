@@ -9,7 +9,7 @@ module.exports = {
     process: true, // For process.env
   },
   parserOptions: {
-    ecmaVersion: '2019',
+    ecmaVersion: '2020',
     sourceType: 'module',
     ecmaFeatures: {
       jsx: true,
@@ -25,10 +25,7 @@ module.exports = {
   },
   overrides: [
     {
-      files: [
-        "**/__tests__/**/*.{js,jsx,ts,tsx}",
-        "*.test.{js,jsx,ts,tsx}",
-      ],
+      files: ['**/__tests__/**/*.{js,jsx,ts,tsx}', '*.test.{js,jsx,ts,tsx}'],
       env: {
         node: true,
       },
@@ -36,11 +33,6 @@ module.exports = {
   ],
   rules: {
     'no-process-env': 'off',
-
-    'import/no-unassigned-import': [
-      'warn',
-      { allow: ['**/*.css', 'react-app-polyfill/*'] },
-    ],
 
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
