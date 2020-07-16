@@ -1,3 +1,12 @@
+# [5.1.0](https://github.com/cheminfo/eslint-config-cheminfo-react/compare/v5.0.0...v5.1.0) (2020-07-16)
+
+
+### Features
+
+* enable es2020 and move unassigned import config to main ([cdd215b](https://github.com/cheminfo/eslint-config-cheminfo-react/commit/cdd215b948067627d73fd1890016df980b6ed4d7))
+
+
+
 # [5.0.0](https://github.com/cheminfo/eslint-config-cheminfo-react/compare/v4.0.0...v5.0.0) (2020-05-25)
 
 
