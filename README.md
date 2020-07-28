@@ -5,7 +5,7 @@ Shared ESLint config for projects using React.
 ## Installation
 
 ```console
-npx install-peerdeps --dev eslint-config-cheminfo-react
+npm i -D eslint-config-cheminfo-react eslint prettier
 ```
 
 ## Usage
