@@ -1,3 +1,7 @@
+# [6.0.0](https://github.com/cheminfo/eslint-config-cheminfo-react/compare/v5.1.0...v6.0.0) (2020-07-28)
+
+
+
 # [5.1.0](https://github.com/cheminfo/eslint-config-cheminfo-react/compare/v5.0.0...v5.1.0) (2020-07-16)
 
 
