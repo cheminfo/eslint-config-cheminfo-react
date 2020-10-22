@@ -38,7 +38,12 @@ module.exports = {
     'react-hooks/exhaustive-deps': 'warn',
 
     'react/boolean-prop-naming': 'off',
-    'react/button-has-type': 'error',
+    'react/button-has-type': [
+      'error', {
+      button: true,
+      submit: true,
+      reset: false,
+    }],
     'react/default-props-match-prop-types': 'error',
     'react/destructuring-assignment': 'off',
     'react/display-name': 'off',
