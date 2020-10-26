@@ -1,3 +1,5 @@
+# Changelog
+
 ## [6.1.0](https://github.com/cheminfo/eslint-config-cheminfo-react/compare/v6.0.1...v6.1.0) (2020-10-26)
 
 
