@@ -1,3 +1,10 @@
+## [6.1.0](https://github.com/cheminfo/eslint-config-cheminfo-react/compare/v6.0.1...v6.1.0) (2020-10-26)
+
+
+### Features
+
+* disallow button with reset type ([e656e8f](https://github.com/cheminfo/eslint-config-cheminfo-react/commit/e656e8fa3886e9117d158ee814581aa965616509))
+
 ## [6.0.1](https://github.com/cheminfo/eslint-config-cheminfo-react/compare/v6.0.0...v6.0.1) (2020-09-23)
 
 
