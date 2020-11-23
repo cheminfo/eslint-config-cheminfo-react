@@ -1,5 +1,12 @@
 # Changelog
 
+### [6.1.1](https://www.github.com/cheminfo/eslint-config-cheminfo-react/compare/v6.1.0...v6.1.1) (2020-11-23)
+
+
+### Bug Fixes
+
+* disable react-in-jsx-scope ([c3b1f12](https://www.github.com/cheminfo/eslint-config-cheminfo-react/commit/c3b1f12b88923c02867b2cdf29cfe4c4849b7ab7))
+
 ## [6.1.0](https://github.com/cheminfo/eslint-config-cheminfo-react/compare/v6.0.1...v6.1.0) (2020-10-26)
 
 
@@ -220,6 +227,3 @@
 
 <a name="1.0.0"></a>
 # 1.0.0 (2017-01-30)
-
-
-
