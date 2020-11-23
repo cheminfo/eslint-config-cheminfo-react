@@ -80,7 +80,7 @@ module.exports = {
       { ignorePureComponents: true },
     ],
     'react/prop-types': 'off',
-    'react/react-in-jsx-scope': 'error',
+    'react/react-in-jsx-scope': 'off',
     'react/require-default-props': 'off',
     'react/require-optimization': 'off',
     'react/require-render-return': 'error',
