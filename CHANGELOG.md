@@ -1,5 +1,12 @@
 # Changelog
 
+## [6.2.0](https://www.github.com/cheminfo/eslint-config-cheminfo-react/compare/v6.1.1...v6.2.0) (2021-02-07)
+
+
+### Features
+
+* forbid prop={true} in jsx ([e8d9034](https://www.github.com/cheminfo/eslint-config-cheminfo-react/commit/e8d90340ddd2ac9bea31eafdd6a02b1f3ba4304f))
+
 ### [6.1.1](https://www.github.com/cheminfo/eslint-config-cheminfo-react/compare/v6.1.0...v6.1.1) (2020-11-23)
 
 
