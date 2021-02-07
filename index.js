@@ -39,11 +39,13 @@ module.exports = {
 
     'react/boolean-prop-naming': 'off',
     'react/button-has-type': [
-      'error', {
-      button: true,
-      submit: true,
-      reset: false,
-    }],
+      'error',
+      {
+        button: true,
+        submit: true,
+        reset: false,
+      },
+    ],
     'react/default-props-match-prop-types': 'error',
     'react/destructuring-assignment': 'off',
     'react/display-name': 'off',
@@ -90,7 +92,7 @@ module.exports = {
     'react/style-prop-object': 'error',
     'react/void-dom-elements-no-children': 'error',
 
-    'react/jsx-boolean-value': 'off',
+    'react/jsx-boolean-value': 'error',
     'react/jsx-filename-extension': 'off',
     'react/jsx-handler-names': 'off',
     'react/jsx-key': 'error',
