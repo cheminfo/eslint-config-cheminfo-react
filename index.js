@@ -9,13 +9,12 @@ module.exports = {
     process: true, // For process.env
   },
   parserOptions: {
-    ecmaVersion: '2020',
     sourceType: 'module',
     ecmaFeatures: {
       jsx: true,
     },
   },
-  extends: ['cheminfo', 'prettier/react'],
+  extends: ['cheminfo'],
   plugins: ['react', 'react-hooks'],
   settings: {
     react: {
