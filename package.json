@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/cheminfo/eslint-config-cheminfo-react#readme",
   "dependencies": {
-    "eslint-config-cheminfo": "^5.2.2",
+    "eslint-config-cheminfo": "^5.2.3",
     "eslint-plugin-react": "^7.22.0",
     "eslint-plugin-react-hooks": "^4.2.0"
   },
