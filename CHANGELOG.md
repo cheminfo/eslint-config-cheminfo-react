@@ -1,5 +1,12 @@
 # Changelog
 
+### [6.2.1](https://www.github.com/cheminfo/eslint-config-cheminfo-react/compare/v6.2.0...v6.2.1) (2021-02-23)
+
+
+### Bug Fixes
+
+* do not extend prettier anymore ([a63ff12](https://www.github.com/cheminfo/eslint-config-cheminfo-react/commit/a63ff1204b0c91c3ca7fceb9cf66edd0ad373c95))
+
 ## [6.2.0](https://www.github.com/cheminfo/eslint-config-cheminfo-react/compare/v6.1.1...v6.2.0) (2021-02-07)
 
 
