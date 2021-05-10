@@ -5,7 +5,7 @@ Shared ESLint config for projects using React.
 ## Installation
 
 ```console
-npm i -D eslint-config-cheminfo-react eslint prettier
+npm i -D eslint-config-cheminfo-react eslint
 ```
 
 ## Usage
