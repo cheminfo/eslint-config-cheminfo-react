@@ -1,5 +1,12 @@
 # Changelog
 
+### [6.2.2](https://www.github.com/cheminfo/eslint-config-cheminfo-react/compare/v6.2.1...v6.2.2) (2021-05-10)
+
+
+### Bug Fixes
+
+* remove Prettier ([d73d17f](https://www.github.com/cheminfo/eslint-config-cheminfo-react/commit/d73d17f6aa34bf4a40defa72a4455a213dfad4f5))
+
 ### [6.2.1](https://www.github.com/cheminfo/eslint-config-cheminfo-react/compare/v6.2.0...v6.2.1) (2021-02-23)
 
 
