@@ -23,6 +23,8 @@ module.exports = {
     linkComponents: [{ name: 'Link', linkAttribute: 'to' }],
   },
   overrides: [
+    // Add the jsx extension to linted files.
+    { files: ['*.jsx'] },
     {
       files: ['**/__tests__/**/*.{js,jsx,ts,tsx}', '*.test.{js,jsx,ts,tsx}'],
       env: {
