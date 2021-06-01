@@ -1,5 +1,12 @@
 # Changelog
 
+### [6.2.3](https://www.github.com/cheminfo/eslint-config-cheminfo-react/compare/v6.2.2...v6.2.3) (2021-06-01)
+
+
+### Bug Fixes
+
+* automatically lint files with the .jsx extension ([e9027f1](https://www.github.com/cheminfo/eslint-config-cheminfo-react/commit/e9027f1bc79f841534e8b82b2663fbbc0e808bd6))
+
 ### [6.2.2](https://www.github.com/cheminfo/eslint-config-cheminfo-react/compare/v6.2.1...v6.2.2) (2021-05-10)
 
 
