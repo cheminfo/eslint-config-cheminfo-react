@@ -3,13 +3,8 @@
 module.exports = {
   env: {
     browser: true,
-    node: false,
-  },
-  globals: {
-    process: true, // For process.env
   },
   parserOptions: {
-    sourceType: 'module',
     ecmaFeatures: {
       jsx: true,
     },
@@ -25,16 +20,8 @@ module.exports = {
   overrides: [
     // Add the jsx extension to linted files.
     { files: ['*.jsx'] },
-    {
-      files: ['**/__tests__/**/*.{js,jsx,ts,tsx}', '*.test.{js,jsx,ts,tsx}'],
-      env: {
-        node: true,
-      },
-    },
   ],
   rules: {
-    'no-process-env': 'off',
-
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
 
