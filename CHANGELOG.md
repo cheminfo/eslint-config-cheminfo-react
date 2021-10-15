@@ -1,5 +1,22 @@
 # Changelog
 
+## [8.0.0](https://www.github.com/cheminfo/eslint-config-cheminfo-react/compare/v7.0.0...v8.0.0) (2021-10-15)
+
+
+### ⚠ BREAKING CHANGES
+
+* cleanup config and remove process.env
+* update to ESLint v8
+
+### Features
+
+* update to ESLint v8 ([1b39f60](https://www.github.com/cheminfo/eslint-config-cheminfo-react/commit/1b39f607bb3aab77adedfd5be3cd4e5c9046c80f))
+
+
+### Miscellaneous Chores
+
+* cleanup config and remove process.env ([b4c9d29](https://www.github.com/cheminfo/eslint-config-cheminfo-react/commit/b4c9d29d48726a2cb7e1579187e1a24a48c45a83))
+
 ## [7.0.0](https://www.github.com/cheminfo/eslint-config-cheminfo-react/compare/v6.2.3...v7.0.0) (2021-10-12)
 
 
