@@ -1,5 +1,12 @@
 # Changelog
 
+### [8.0.1](https://www.github.com/cheminfo/eslint-config-cheminfo-react/compare/v8.0.0...v8.0.1) (2021-10-15)
+
+
+### Bug Fixes
+
+* use temporary hack to install react plugins ([4c2a068](https://www.github.com/cheminfo/eslint-config-cheminfo-react/commit/4c2a06861ad7d20a164f3734e33db0386def4cf6))
+
 ## [8.0.0](https://www.github.com/cheminfo/eslint-config-cheminfo-react/compare/v7.0.0...v8.0.0) (2021-10-15)
 
 
