@@ -1,5 +1,12 @@
 # Changelog
 
+### [8.0.2](https://www.github.com/cheminfo/eslint-config-cheminfo-react/compare/v8.0.1...v8.0.2) (2021-12-06)
+
+
+### Bug Fixes
+
+* remove hacky workaround for ESLint 8 ([8f4a208](https://www.github.com/cheminfo/eslint-config-cheminfo-react/commit/8f4a208a4198f6dce24ec019b439175294e7106f))
+
 ### [8.0.1](https://www.github.com/cheminfo/eslint-config-cheminfo-react/compare/v8.0.0...v8.0.1) (2021-10-15)
 
 
