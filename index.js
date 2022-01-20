@@ -22,7 +22,7 @@ module.exports = {
     { files: ['*.jsx'] },
   ],
   rules: {
-    'no-restricted-globals': ['close', 'open', 'event'],
+    'no-restricted-globals': ['error', 'close', 'open', 'event'],
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
 
