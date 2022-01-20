@@ -1,5 +1,12 @@
 # Changelog
 
+## [8.1.0](https://www.github.com/cheminfo/eslint-config-cheminfo-react/compare/v8.0.2...v8.1.0) (2022-01-20)
+
+
+### Features
+
+* add restricted globals ([#17](https://www.github.com/cheminfo/eslint-config-cheminfo-react/issues/17)) ([d4fe314](https://www.github.com/cheminfo/eslint-config-cheminfo-react/commit/d4fe314137f171ed2001605c025f742135dafc66))
+
 ### [8.0.2](https://www.github.com/cheminfo/eslint-config-cheminfo-react/compare/v8.0.1...v8.0.2) (2021-12-06)
 
 
