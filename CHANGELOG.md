@@ -1,5 +1,12 @@
 # Changelog
 
+### [8.1.1](https://www.github.com/cheminfo/eslint-config-cheminfo-react/compare/v8.1.0...v8.1.1) (2022-01-20)
+
+
+### Bug Fixes
+
+* change config to include error level on new rule ([#19](https://www.github.com/cheminfo/eslint-config-cheminfo-react/issues/19)) ([cd31173](https://www.github.com/cheminfo/eslint-config-cheminfo-react/commit/cd311739896c75728f6f48325c2fa42e94b76fab))
+
 ## [8.1.0](https://www.github.com/cheminfo/eslint-config-cheminfo-react/compare/v8.0.2...v8.1.0) (2022-01-20)
 
 
