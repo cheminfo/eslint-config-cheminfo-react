@@ -1,5 +1,12 @@
 # Changelog
 
+## [8.2.0](https://www.github.com/cheminfo/eslint-config-cheminfo-react/compare/v8.1.1...v8.2.0) (2022-03-08)
+
+
+### Features
+
+* add base config which does not extend cheminfo ([ff97beb](https://www.github.com/cheminfo/eslint-config-cheminfo-react/commit/ff97beb53cfafc58fe0a5d906b79ced958d31b44))
+
 ### [8.1.1](https://www.github.com/cheminfo/eslint-config-cheminfo-react/compare/v8.1.0...v8.1.1) (2022-01-20)
 
 
