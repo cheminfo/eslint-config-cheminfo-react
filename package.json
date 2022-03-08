@@ -4,6 +4,7 @@
   "description": "Shared ESLint config for projects using React",
   "main": "index.js",
   "files": [
+    "base.js",
     "index.js"
   ],
   "scripts": {
@@ -21,17 +22,17 @@
   },
   "homepage": "https://github.com/cheminfo/eslint-config-cheminfo-react#readme",
   "dependencies": {
-    "eslint-config-cheminfo": "^7.1.1"
+    "eslint-config-cheminfo": "^7.3.0"
   },
   "peerDependencies": {
     "eslint": "^8.0.1",
-    "eslint-plugin-react": "^7.27.1",
+    "eslint-plugin-react": "^7.29.3",
     "eslint-plugin-react-hooks": "^4.3.0"
   },
   "devDependencies": {
     "eslint": "8.0.1",
     "eslint-plugin-react": "7.27.1",
     "eslint-plugin-react-hooks": "4.3.0",
-    "prettier": "^2.4.1"
+    "prettier": "^2.5.1"
   }
 }
