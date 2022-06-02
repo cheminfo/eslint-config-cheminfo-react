@@ -1,5 +1,12 @@
 # Changelog
 
+## [9.0.1](https://github.com/cheminfo/eslint-config-cheminfo-react/compare/v9.0.0...v9.0.1) (2022-06-02)
+
+
+### Bug Fixes
+
+* disable jsx-no-leaked-render ([3c37053](https://github.com/cheminfo/eslint-config-cheminfo-react/commit/3c37053e31a09a369f95614c4ef48f671482d373))
+
 ## [9.0.0](https://github.com/cheminfo/eslint-config-cheminfo-react/compare/v8.2.1...v9.0.0) (2022-06-02)
 
 
