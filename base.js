@@ -59,7 +59,8 @@ module.exports = {
     'react/jsx-no-comment-textnodes': 'error',
     'react/jsx-no-constructed-context-values': 'error',
     'react/jsx-no-duplicate-props': ['error', { ignoreCase: true }],
-    'react/jsx-no-leaked-render': 'error',
+    // TODO: enable when https://github.com/jsx-eslint/eslint-plugin-react/issues/3292 is fixed.
+    'react/jsx-no-leaked-render': 'off',
     'react/jsx-no-target-blank': 'error',
     'react/jsx-no-undef': 'error',
     'react/jsx-no-useless-fragment': ['error', { allowExpressions: true }],
