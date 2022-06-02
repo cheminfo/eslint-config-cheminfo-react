@@ -23,7 +23,7 @@ module.exports = {
   rules: {
     'no-restricted-globals': ['error', 'close', 'open', 'event', 'name'],
     'react-hooks/rules-of-hooks': 'error',
-    'react-hooks/exhaustive-deps': 'warn',
+    'react-hooks/exhaustive-deps': 'error',
 
     'react/boolean-prop-naming': 'off',
     'react/button-has-type': [
