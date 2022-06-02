@@ -1,5 +1,18 @@
 # Changelog
 
+## [9.0.0](https://github.com/cheminfo/eslint-config-cheminfo-react/compare/v8.2.1...v9.0.0) (2022-06-02)
+
+
+### ⚠ BREAKING CHANGES
+
+* review and update enabled rules
+* promote exhaustive-deps rule to "error"
+
+### Features
+
+* promote exhaustive-deps rule to "error" ([0f08757](https://github.com/cheminfo/eslint-config-cheminfo-react/commit/0f087571b2256e9cff5c4cddbafdb6a5069cffae))
+* review and update enabled rules ([87df893](https://github.com/cheminfo/eslint-config-cheminfo-react/commit/87df893fdc77706b938041395366a96af832058f))
+
 ### [8.2.1](https://www.github.com/cheminfo/eslint-config-cheminfo-react/compare/v8.2.0...v8.2.1) (2022-05-17)
 
 
