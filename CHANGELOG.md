@@ -1,5 +1,12 @@
 # Changelog
 
+## [9.0.2](https://github.com/cheminfo/eslint-config-cheminfo-react/compare/v9.0.1...v9.0.2) (2022-06-22)
+
+
+### Bug Fixes
+
+* add "status" to no-restricted-globals rule ([5834d7b](https://github.com/cheminfo/eslint-config-cheminfo-react/commit/5834d7b7a352075808d3c24649a6a8be02e66bae))
+
 ## [9.0.1](https://github.com/cheminfo/eslint-config-cheminfo-react/compare/v9.0.0...v9.0.1) (2022-06-02)
 
 
