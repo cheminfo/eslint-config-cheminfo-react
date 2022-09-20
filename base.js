@@ -21,12 +21,19 @@ module.exports = {
     { files: ['*.jsx'] },
   ],
   rules: {
-    'no-restricted-globals': ['error', 'close', 'open', 'event', 'name', 'status'],
+    'no-restricted-globals': [
+      'error',
+      'close',
+      'open',
+      'event',
+      'name',
+      'status',
+    ],
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'error',
 
     // https://github.com/jsx-eslint/eslint-plugin-react
-    // Last rules review: v7.30.0
+    // Last rules review: v7.31.8
     'react/button-has-type': [
       'error',
       {
