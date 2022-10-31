@@ -33,7 +33,7 @@ module.exports = {
     'react-hooks/exhaustive-deps': 'error',
 
     // https://github.com/jsx-eslint/eslint-plugin-react
-    // Last rules review: v7.31.8
+    // Last rules review: v7.31.10
     'react/button-has-type': [
       'error',
       {
