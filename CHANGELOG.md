@@ -1,5 +1,12 @@
 # Changelog
 
+## [9.1.0](https://github.com/cheminfo/eslint-config-cheminfo-react/compare/v9.0.2...v9.1.0) (2023-03-10)
+
+
+### Features
+
+* update plugins and add react-refresh plugin ([398c42b](https://github.com/cheminfo/eslint-config-cheminfo-react/commit/398c42b85f221d5881157e4d4fa3468c4b8f1cef))
+
 ## [9.0.2](https://github.com/cheminfo/eslint-config-cheminfo-react/compare/v9.0.1...v9.0.2) (2022-06-22)
 
 
