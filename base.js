@@ -9,7 +9,7 @@ module.exports = {
       jsx: true,
     },
   },
-  plugins: ['react', 'react-hooks'],
+  plugins: ['react', 'react-hooks', 'react-refresh'],
   settings: {
     react: {
       version: 'detect',
@@ -32,8 +32,10 @@ module.exports = {
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'error',
 
+    'react-refresh/only-export-components': 'warn',
+
     // https://github.com/jsx-eslint/eslint-plugin-react
-    // Last rules review: v7.31.10
+    // Last rules review: v7.32.2
     'react/button-has-type': [
       'error',
       {
