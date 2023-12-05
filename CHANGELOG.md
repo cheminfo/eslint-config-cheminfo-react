@@ -1,5 +1,12 @@
 # Changelog
 
+## [10.1.0](https://github.com/cheminfo/eslint-config-cheminfo-react/compare/v10.0.0...v10.1.0) (2023-12-05)
+
+
+### Features
+
+* update dependencies ([36bd0d3](https://github.com/cheminfo/eslint-config-cheminfo-react/commit/36bd0d311441743e84c7834ebbd723b05f5eecd5))
+
 ## [10.0.0](https://github.com/cheminfo/eslint-config-cheminfo-react/compare/v9.1.1...v10.0.0) (2023-07-18)
 
 
