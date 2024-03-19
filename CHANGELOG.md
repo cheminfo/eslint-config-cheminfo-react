@@ -1,5 +1,12 @@
 # Changelog
 
+## [10.1.1](https://github.com/cheminfo/eslint-config-cheminfo-react/compare/v10.1.0...v10.1.1) (2024-03-19)
+
+
+### Bug Fixes
+
+* add "length" to restricted globals ([4b8aeb2](https://github.com/cheminfo/eslint-config-cheminfo-react/commit/4b8aeb24fb0500a2866610f3ccdacd97f1c43f75))
+
 ## [10.1.0](https://github.com/cheminfo/eslint-config-cheminfo-react/compare/v10.0.0...v10.1.0) (2023-12-05)
 
 
