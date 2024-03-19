@@ -1,5 +1,12 @@
 # Changelog
 
+## [10.1.2](https://github.com/cheminfo/eslint-config-cheminfo-react/compare/v10.1.1...v10.1.2) (2024-03-19)
+
+
+### Bug Fixes
+
+* install ESLint required by base config ([b21d724](https://github.com/cheminfo/eslint-config-cheminfo-react/commit/b21d7242c033ee97bca74ba7bc40e2828ef4084f))
+
 ## [10.1.1](https://github.com/cheminfo/eslint-config-cheminfo-react/compare/v10.1.0...v10.1.1) (2024-03-19)
 
 
