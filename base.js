@@ -21,7 +21,7 @@ module.exports = {
     { files: ['*.jsx'] },
   ],
   rules: {
-    'no-restricted-globals': require('./noRestrictedGlobals'),
+    'no-restricted-globals': ['error', ...require('./noRestrictedGlobals')],
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'error',
 
