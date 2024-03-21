@@ -1,5 +1,12 @@
 # Changelog
 
+## [11.0.1](https://github.com/cheminfo/eslint-config-cheminfo-react/compare/v11.0.0...v11.0.1) (2024-03-21)
+
+
+### Bug Fixes
+
+* missing file from package ([#35](https://github.com/cheminfo/eslint-config-cheminfo-react/issues/35)) ([1f96477](https://github.com/cheminfo/eslint-config-cheminfo-react/commit/1f964778b039d62cef03d8c669e9e2a58aeb4e7a))
+
 ## [11.0.0](https://github.com/cheminfo/eslint-config-cheminfo-react/compare/v10.1.2...v11.0.0) (2024-03-21)
 
 
