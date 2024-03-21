@@ -1,4 +1,3 @@
-// review: https://github.com/cheminfo/eslint-config-cheminfo-react/pull/33
 module.exports = [
   'alert',
   'blur',
@@ -79,4 +78,4 @@ module.exports = [
   'top',
   'updateCommands',
   'visualViewport',
-]
+];

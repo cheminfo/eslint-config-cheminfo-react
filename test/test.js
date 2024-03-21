@@ -8,4 +8,4 @@ const eslint = new ESLint({ overrideConfigFile: 'eslintrc.test.yml' });
 eslint.lintFiles(['test/ok.js']).catch(error => {
   console.error(error);
   process.exit(1);
-})
+});
