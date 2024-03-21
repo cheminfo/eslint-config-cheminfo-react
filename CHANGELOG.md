@@ -1,5 +1,16 @@
 # Changelog
 
+## [11.0.0](https://github.com/cheminfo/eslint-config-cheminfo-react/compare/v10.1.2...v11.0.0) (2024-03-21)
+
+
+### ⚠ BREAKING CHANGES
+
+* deny majority of window properties and methods ([#33](https://github.com/cheminfo/eslint-config-cheminfo-react/issues/33))
+
+### Bug Fixes
+
+* deny majority of window properties and methods ([#33](https://github.com/cheminfo/eslint-config-cheminfo-react/issues/33)) ([1675274](https://github.com/cheminfo/eslint-config-cheminfo-react/commit/1675274d047f06ff38581106f8fa4fc7505cc973))
+
 ## [10.1.2](https://github.com/cheminfo/eslint-config-cheminfo-react/compare/v10.1.1...v10.1.2) (2024-03-19)
 
 
