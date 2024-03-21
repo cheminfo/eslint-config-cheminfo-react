@@ -5,7 +5,8 @@
   "main": "index.js",
   "files": [
     "base.js",
-    "index.js"
+    "index.js",
+    "noRestrictedGlobals.js"
   ],
   "scripts": {
     "test": "node test/test.js"
