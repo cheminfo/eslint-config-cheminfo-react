@@ -69,6 +69,7 @@ module.exports = [
   'scrollTo',
   'scrollX',
   'scrollY',
+  'self',
   'setResizable',
   'speechSynthesis',
   'status',
