@@ -1,5 +1,16 @@
 # Changelog
 
+## [13.0.0](https://github.com/cheminfo/eslint-config-cheminfo-react/compare/v12.0.1...v13.0.0) (2024-07-02)
+
+
+### ⚠ BREAKING CHANGES
+
+* migrate to ESLint flat config
+
+### Features
+
+* migrate to ESLint flat config ([4114c0e](https://github.com/cheminfo/eslint-config-cheminfo-react/commit/4114c0e97d7a2687d1d630a137c386b352971641))
+
 ## [12.0.1](https://github.com/cheminfo/eslint-config-cheminfo-react/compare/v12.0.0...v12.0.1) (2024-07-02)
 
 
