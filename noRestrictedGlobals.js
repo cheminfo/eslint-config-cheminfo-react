@@ -1,4 +1,4 @@
-module.exports = [
+export const restrictedGlobals = [
   'alert',
   'blur',
   'caches',

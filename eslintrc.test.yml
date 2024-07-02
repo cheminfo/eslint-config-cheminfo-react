@@ -1,4 +1,0 @@
-extends:
-  - cheminfo
-  - ./base.js
-  

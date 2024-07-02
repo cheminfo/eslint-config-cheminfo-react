@@ -1,5 +1,4 @@
-'use strict';
+import cheminfoBase from 'eslint-config-cheminfo/base';
+import react from './base.js';
 
-module.exports = {
-  extends: ['cheminfo', './base.js'],
-};
+export default [...cheminfoBase, ...react];
