@@ -1,5 +1,12 @@
 # Changelog
 
+## [12.0.1](https://github.com/cheminfo/eslint-config-cheminfo-react/compare/v12.0.0...v12.0.1) (2024-07-02)
+
+
+### Bug Fixes
+
+* allow "components" as props for Blueprint ([221d8e2](https://github.com/cheminfo/eslint-config-cheminfo-react/commit/221d8e2f75bfa7a037241d3abb4798370c43c99e))
+
 ## [12.0.0](https://github.com/cheminfo/eslint-config-cheminfo-react/compare/v11.0.1...v12.0.0) (2024-06-29)
 
 
