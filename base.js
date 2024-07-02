@@ -51,7 +51,8 @@ module.exports = {
     'react/no-unescaped-entities': 'error',
     'react/no-unknown-property': 'error',
     'react/no-unsafe': 'error',
-    'react/no-unstable-nested-components': 'error',
+    // Allow as props to support Blueprint's `xxxRenderer` pattern.
+    'react/no-unstable-nested-components': ['error', { allowAsProps: true }],
     'react/no-unused-prop-types': 'error',
     'react/self-closing-comp': 'error',
     'react/style-prop-object': 'error',
