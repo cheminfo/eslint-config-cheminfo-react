@@ -2,6 +2,10 @@
 
 Shared ESLint config for projects using React.
 
+> [!IMPORTANT]  
+> Configs now require to use the ESLint Flat Config format.
+> See the [migration guide](https://github.com/cheminfo/eslint-config/blob/main/MIGRATION.md) for more information.
+
 ## Installation
 
 ```console
@@ -9,6 +13,8 @@ npm i -D eslint-config-cheminfo-react eslint@^8.57.0
 ```
 
 ## Usage
+
+### In JavaScript projects
 
 Create a `eslint.config.mjs` file with the following contents:
 
@@ -19,6 +25,10 @@ export default [...react];
 ```
 
 You can then customize the config for your project.
+
+### In TypeScript projects
+
+See https://github.com/cheminfo/eslint-config/tree/main?tab=readme-ov-file#typescript-and-react
 
 ## References
 
