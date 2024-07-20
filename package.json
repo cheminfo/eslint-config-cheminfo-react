@@ -13,7 +13,12 @@
     "noRestrictedGlobals.js"
   ],
   "scripts": {
-    "test": "node test/test.js"
+    "eslint": "eslint *.js test/test.js",
+    "eslint-fix": "npm run eslint -- --fix",
+    "prettier": "prettier --check .",
+    "prettier-write": "prettier --write .",
+    "test": "npm run test-only && npm run eslint && npm run prettier",
+    "test-only": "node test/test.js"
   },
   "repository": {
     "type": "git",
@@ -27,10 +32,10 @@
   },
   "homepage": "https://github.com/cheminfo/eslint-config-cheminfo-react#readme",
   "dependencies": {
-    "eslint-config-cheminfo": "^11.0.2",
-    "eslint-plugin-react": "^7.34.3",
+    "eslint-config-cheminfo": "^11.0.4",
+    "eslint-plugin-react": "^7.35.0",
     "eslint-plugin-react-hooks": "^4.6.2",
-    "eslint-plugin-react-refresh": "^0.4.7",
+    "eslint-plugin-react-refresh": "^0.4.8",
     "globals": "^15.8.0"
   },
   "peerDependencies": {
@@ -38,7 +43,7 @@
   },
   "devDependencies": {
     "eslint": "8.57.0",
-    "prettier": "^3.3.2",
+    "prettier": "^3.3.3",
     "react": "^18.3.1"
   }
 }
