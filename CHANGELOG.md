@@ -1,5 +1,18 @@
 # Changelog
 
+## [14.0.0](https://github.com/cheminfo/eslint-config-cheminfo-react/compare/v13.0.0...v14.0.0) (2024-10-05)
+
+
+### ⚠ BREAKING CHANGES
+
+* move `react-refresh/only-export-components` to error
+* update dependencies and support ESLint 9
+
+### Features
+
+* move `react-refresh/only-export-components` to error ([ea44544](https://github.com/cheminfo/eslint-config-cheminfo-react/commit/ea44544735578797ec553db86c289cb861daa155))
+* update dependencies and support ESLint 9 ([ac7eae0](https://github.com/cheminfo/eslint-config-cheminfo-react/commit/ac7eae0885908bb845381cba62ad99ec759849cc))
+
 ## [13.0.0](https://github.com/cheminfo/eslint-config-cheminfo-react/compare/v12.0.1...v13.0.0) (2024-07-02)
 
 
