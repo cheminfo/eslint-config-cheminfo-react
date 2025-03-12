@@ -1,5 +1,6 @@
-import cheminfoBase from 'eslint-config-cheminfo/base';
+import { defineConfig } from 'eslint/config';
+import cheminfo from 'eslint-config-cheminfo';
 
 import react from './base.js';
 
-export default [...cheminfoBase, ...react];
+export default defineConfig(cheminfo, react);

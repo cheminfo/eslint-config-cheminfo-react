@@ -1,3 +1,4 @@
+import { defineConfig } from 'eslint/config';
 import react from 'eslint-plugin-react';
 import reactHooks from 'eslint-plugin-react-hooks';
 import reactRefresh from 'eslint-plugin-react-refresh';
@@ -5,7 +6,7 @@ import globals from 'globals';
 
 import { restrictedGlobals } from './noRestrictedGlobals.js';
 
-export default [
+export default defineConfig(
   // Add the jsx extension to linted files.
   { files: ['**/*.jsx'] },
   {
@@ -82,4 +83,4 @@ export default [
       'react/jsx-uses-vars': 'error',
     },
   },
-];
+);

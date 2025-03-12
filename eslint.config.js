@@ -1,3 +1,5 @@
+import { defineConfig } from 'eslint/config';
+
 import react from './index.js';
 
-export default [...react];
+export default defineConfig(react);

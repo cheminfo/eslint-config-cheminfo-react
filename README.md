@@ -3,7 +3,7 @@
 Shared ESLint config for projects using React.
 
 > [!IMPORTANT]  
-> Configs now require to use the ESLint Flat Config format.
+> Configs now require using the ESLint Flat Config format.
 > See the [migration guide](https://github.com/cheminfo/eslint-config/blob/main/MIGRATION.md) for more information.
 
 ## Installation
@@ -19,12 +19,13 @@ npm i -D eslint-config-cheminfo-react eslint
 Create a `eslint.config.mjs` file with the following contents:
 
 ```js
+import { defineConfig } from 'eslint/config';
 import react from 'eslint-config-cheminfo-react';
 
-export default [...react];
+export default defineConfig(react);
 ```
 
-You can then customize the config for your project.
+You can then customise the config for your project.
 
 ### In TypeScript projects
 
