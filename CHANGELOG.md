@@ -1,5 +1,16 @@
 # Changelog
 
+## [16.0.0](https://github.com/cheminfo/eslint-config-cheminfo-react/compare/v15.0.0...v16.0.0) (2025-03-12)
+
+
+### ⚠ BREAKING CHANGES
+
+* update ESLint to v9.22.0 and use config helpers
+
+### Features
+
+* update ESLint to v9.22.0 and use config helpers ([d0983c4](https://github.com/cheminfo/eslint-config-cheminfo-react/commit/d0983c44aded9590fb15fea821b62984aeeed0f1))
+
 ## [15.0.0](https://github.com/cheminfo/eslint-config-cheminfo-react/compare/v14.0.0...v15.0.0) (2024-11-20)
 
 
