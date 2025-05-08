@@ -8,8 +8,12 @@ import { restrictedGlobals } from './noRestrictedGlobals.js';
 
 export default defineConfig(
   // Add the jsx extension to linted files.
-  { files: ['**/*.jsx'] },
   {
+    name: 'cheminfo/react/lint-jsx',
+    files: ['**/*.jsx'],
+  },
+  {
+    name: 'cheminfo/react/rules',
     languageOptions: {
       globals: {
         ...globals.browser,
