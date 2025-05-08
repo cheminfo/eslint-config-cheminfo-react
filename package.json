@@ -32,11 +32,11 @@
   },
   "homepage": "https://github.com/cheminfo/eslint-config-cheminfo-react#readme",
   "dependencies": {
-    "eslint-config-cheminfo": "^14.0.0",
-    "eslint-plugin-react": "^7.37.4",
+    "eslint-config-cheminfo": "^14.1.0",
+    "eslint-plugin-react": "^7.37.5",
     "eslint-plugin-react-hooks": "^5.2.0",
-    "eslint-plugin-react-refresh": "^0.4.19",
-    "globals": "^16.0.0"
+    "eslint-plugin-react-refresh": "^0.4.20",
+    "globals": "^16.1.0"
   },
   "peerDependencies": {
     "eslint": "^9.22.0"
