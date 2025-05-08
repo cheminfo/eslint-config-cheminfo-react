@@ -1,5 +1,12 @@
 # Changelog
 
+## [16.0.1](https://github.com/cheminfo/eslint-config-cheminfo-react/compare/v16.0.0...v16.0.1) (2025-05-08)
+
+
+### Bug Fixes
+
+* add names to config objects ([6355e73](https://github.com/cheminfo/eslint-config-cheminfo-react/commit/6355e73ab5de472b82eaf7a1cc37ec76ed9dbaa3))
+
 ## [16.0.0](https://github.com/cheminfo/eslint-config-cheminfo-react/compare/v15.0.0...v16.0.0) (2025-03-12)
 
 
