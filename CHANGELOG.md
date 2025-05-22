@@ -1,5 +1,12 @@
 # Changelog
 
+## [16.0.2](https://github.com/cheminfo/eslint-config-cheminfo-react/compare/v16.0.1...v16.0.2) (2025-05-22)
+
+
+### Bug Fixes
+
+* React should not be in scope ([#48](https://github.com/cheminfo/eslint-config-cheminfo-react/issues/48)) ([d3c6562](https://github.com/cheminfo/eslint-config-cheminfo-react/commit/d3c6562755852f6256672438397346dc64a89e43))
+
 ## [16.0.1](https://github.com/cheminfo/eslint-config-cheminfo-react/compare/v16.0.0...v16.0.1) (2025-05-08)
 
 
