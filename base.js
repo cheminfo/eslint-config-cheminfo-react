@@ -21,6 +21,7 @@ export default defineConfig(
       parserOptions: {
         ecmaFeatures: {
           jsx: true,
+          jsxPragma: null,
         },
       },
     },
@@ -83,7 +84,7 @@ export default defineConfig(
       'react/jsx-no-undef': 'error',
       'react/jsx-no-useless-fragment': ['error', { allowExpressions: true }],
       'react/jsx-pascal-case': ['error', { allowAllCaps: true }],
-      'react/jsx-uses-react': 'error',
+      'react/jsx-uses-react': 'off',
       'react/jsx-uses-vars': 'error',
     },
   },
