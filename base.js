@@ -2,6 +2,7 @@ import { defineConfig } from 'eslint/config';
 import react from 'eslint-plugin-react';
 import reactHooks from 'eslint-plugin-react-hooks';
 import reactRefresh from 'eslint-plugin-react-refresh';
+import reactEffects from 'eslint-plugin-react-you-might-not-need-an-effect';
 import globals from 'globals';
 
 import { restrictedGlobals } from './noRestrictedGlobals.js';
@@ -29,6 +30,7 @@ export default defineConfig(
       react,
       'react-hooks': reactHooks,
       'react-refresh': reactRefresh,
+      'react-you-might-not-need-an-effect': reactEffects,
     },
     settings: {
       react: {
@@ -37,6 +39,7 @@ export default defineConfig(
       linkComponents: [{ name: 'Link', linkAttribute: 'to' }],
     },
     rules: {
+      'react-you-might-not-need-an-effect/you-might-not-need-an-effect': 'warn',
       'no-restricted-globals': ['error', ...restrictedGlobals],
       'react-hooks/rules-of-hooks': 'error',
       'react-hooks/exhaustive-deps': 'error',
