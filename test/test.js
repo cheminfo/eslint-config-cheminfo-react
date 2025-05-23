@@ -2,6 +2,14 @@ import assert from 'node:assert';
 
 import { loadESLint } from 'eslint';
 
+import {
+  excludeJsdoc,
+  getRuleId,
+  getRuleMessageIds,
+  isError,
+  isWarning,
+} from './rule_helpers.js';
+
 const ESLint = await loadESLint({ useFlatConfig: true });
 /** @type {import('eslint').ESLint} */
 const eslint = new ESLint();
@@ -20,25 +28,16 @@ assert.deepStrictEqual(errors, [
   'react-hooks/exhaustive-deps',
 ]);
 
-const warnings = notOkResult.messages
-  .filter(isWarning)
-  .filter(excludeJsdoc)
-  .map(getRuleId)
-  .sort();
-assert.deepStrictEqual(warnings, []);
+const warnings = notOkResult.messages.filter(isWarning).filter(excludeJsdoc);
 
-function isError(message) {
-  return message.severity === 2;
-}
+const warningRules = warnings.map(getRuleId).sort();
+assert.deepStrictEqual(warningRules, [
+  'react-you-might-not-need-an-effect/you-might-not-need-an-effect',
+]);
 
-function isWarning(message) {
-  return message.severity === 1;
-}
+const effectMessageIds = getRuleMessageIds(
+  warnings,
+  'react-you-might-not-need-an-effect/you-might-not-need-an-effect',
+);
 
-function excludeJsdoc(message) {
-  return !message.ruleId.startsWith('jsdoc/');
-}
-
-function getRuleId(message) {
-  return message.ruleId;
-}
+assert.deepStrictEqual(effectMessageIds, ['avoidInternalEffect']);
