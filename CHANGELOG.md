@@ -1,5 +1,12 @@
 # Changelog
 
+## [16.1.0](https://github.com/cheminfo/eslint-config-cheminfo-react/compare/v16.0.2...v16.1.0) (2025-05-23)
+
+
+### Features
+
+* setup react-you-might-not-need-an-effect eslint plugin with warnings ([#50](https://github.com/cheminfo/eslint-config-cheminfo-react/issues/50)) ([4ec4a01](https://github.com/cheminfo/eslint-config-cheminfo-react/commit/4ec4a01a96e6644fc71a9893598d95e023438c64))
+
 ## [16.0.2](https://github.com/cheminfo/eslint-config-cheminfo-react/compare/v16.0.1...v16.0.2) (2025-05-22)
 
 
