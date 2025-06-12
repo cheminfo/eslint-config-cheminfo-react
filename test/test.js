@@ -42,7 +42,7 @@ test('not ok', async () => {
   assert.strictEqual(
     result.messages.filter(isWarning).filter(excludeJsdoc).length,
     0,
-    'not_ok.jsx should have one warning',
+    'not_ok.jsx should not have warnings',
   );
 });
 
