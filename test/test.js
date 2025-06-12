@@ -1,4 +1,5 @@
 import assert from 'node:assert';
+import test from 'node:test';
 
 import { loadESLint } from 'eslint';
 
@@ -14,32 +15,51 @@ const ESLint = await loadESLint({ useFlatConfig: true });
 /** @type {import('eslint').ESLint} */
 const eslint = new ESLint();
 
-const [okResult, notOkResult] = await eslint.lintFiles([
-  'test/ok.jsx',
-  'test/not_ok.jsx',
-]);
+test('ok', async () => {
+  const [result] = await eslint.lintFiles('test/ok.jsx');
+  assert.strictEqual(result.errorCount, 0, 'ok.jsx should have no error');
+  assert.strictEqual(
+    result.messages.filter(excludeJsdoc).length,
+    0,
+    'ok.jsx should have no warning',
+  );
+});
 
-assert.strictEqual(okResult.errorCount, 0, 'ok.jsx should have no error');
+test('not ok', async () => {
+  const [result] = await eslint.lintFiles('test/not_ok.jsx');
 
-const errors = notOkResult.messages.filter(isError).map(getRuleId).sort();
+  assert.deepStrictEqual(
+    result.messages.filter(isError).map(getRuleId).sort(),
+    [
+      // React is defined but never used
+      'no-unused-vars',
+      'react-hooks/exhaustive-deps',
+      'react-hooks/react-compiler',
+      'react/jsx-no-target-blank',
+    ],
+  );
 
-assert.deepStrictEqual(errors, [
-  'no-unused-vars',
-  'react-hooks/exhaustive-deps',
-  'react-hooks/react-compiler',
-  'react/jsx-no-target-blank',
-]);
+  assert.strictEqual(
+    result.messages.filter(isWarning).filter(excludeJsdoc).length,
+    0,
+    'not_ok.jsx should not have warnings',
+  );
+});
 
-const warnings = notOkResult.messages.filter(isWarning).filter(excludeJsdoc);
+test('you might not need an effect', async () => {
+  const [result] = await eslint.lintFiles('test/effect.jsx');
+  assert.strictEqual(result.errorCount, 0, 'effect.jsx should have no error');
 
-const warningRules = warnings.map(getRuleId).sort();
-assert.deepStrictEqual(warningRules, [
-  'react-you-might-not-need-an-effect/you-might-not-need-an-effect',
-]);
+  const warnings = result.messages.filter(isWarning).filter(excludeJsdoc);
+  assert.deepStrictEqual(warnings.map(getRuleId).sort(), [
+    'react-you-might-not-need-an-effect/you-might-not-need-an-effect',
+  ]);
 
-const effectMessageIds = getRuleMessageIds(
-  warnings,
-  'react-you-might-not-need-an-effect/you-might-not-need-an-effect',
-);
-
-assert.deepStrictEqual(effectMessageIds, ['avoidInternalEffect']);
+  assert.deepStrictEqual(
+    getRuleMessageIds(
+      warnings,
+      'react-you-might-not-need-an-effect/you-might-not-need-an-effect',
+    ),
+    ['avoidDerivedState'],
+  );
+});
