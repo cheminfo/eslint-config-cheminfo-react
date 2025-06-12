@@ -41,8 +41,10 @@ export default defineConfig(
     rules: {
       'react-you-might-not-need-an-effect/you-might-not-need-an-effect': 'warn',
       'no-restricted-globals': ['error', ...restrictedGlobals],
-      'react-hooks/rules-of-hooks': 'error',
+
       'react-hooks/exhaustive-deps': 'error',
+      'react-hooks/react-compiler': 'error',
+      'react-hooks/rules-of-hooks': 'error',
 
       'react-refresh/only-export-components': 'error',
 

@@ -26,6 +26,7 @@ const errors = notOkResult.messages.filter(isError).map(getRuleId).sort();
 assert.deepStrictEqual(errors, [
   'no-unused-vars',
   'react-hooks/exhaustive-deps',
+  'react-hooks/react-compiler',
 ]);
 
 const warnings = notOkResult.messages.filter(isWarning).filter(excludeJsdoc);
