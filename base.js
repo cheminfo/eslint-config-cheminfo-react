@@ -85,7 +85,7 @@ export default defineConfig(
       'react/jsx-no-duplicate-props': ['error', { ignoreCase: true }],
       // TODO: enable when https://github.com/jsx-eslint/eslint-plugin-react/issues/3292 is fixed.
       'react/jsx-no-leaked-render': 'off',
-      'react/jsx-no-target-blank': 'error',
+      'react/jsx-no-target-blank': ['error', { allowReferrer: true }],
       'react/jsx-no-undef': 'error',
       'react/jsx-no-useless-fragment': ['error', { allowExpressions: true }],
       'react/jsx-pascal-case': ['error', { allowAllCaps: true }],

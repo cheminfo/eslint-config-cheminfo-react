@@ -27,6 +27,7 @@ assert.deepStrictEqual(errors, [
   'no-unused-vars',
   'react-hooks/exhaustive-deps',
   'react-hooks/react-compiler',
+  'react/jsx-no-target-blank',
 ]);
 
 const warnings = notOkResult.messages.filter(isWarning).filter(excludeJsdoc);
