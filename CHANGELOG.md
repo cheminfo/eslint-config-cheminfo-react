@@ -1,5 +1,19 @@
 # Changelog
 
+## [16.1.0](https://github.com/cheminfo/eslint-config-cheminfo-react/compare/v16.0.2...v16.1.0) (2025-06-12)
+
+
+### Features
+
+* add `react-hooks/react-compiler` rule ([#53](https://github.com/cheminfo/eslint-config-cheminfo-react/issues/53)) ([e56b9f8](https://github.com/cheminfo/eslint-config-cheminfo-react/commit/e56b9f82466fa39e52bab2315b53774ffd3744d1))
+* setup react-you-might-not-need-an-effect eslint plugin with warnings ([#50](https://github.com/cheminfo/eslint-config-cheminfo-react/issues/50)) ([4ec4a01](https://github.com/cheminfo/eslint-config-cheminfo-react/commit/4ec4a01a96e6644fc71a9893598d95e023438c64))
+
+
+### Bug Fixes
+
+* allow referrer in `target="_blank"` links ([#54](https://github.com/cheminfo/eslint-config-cheminfo-react/issues/54)) ([47549d2](https://github.com/cheminfo/eslint-config-cheminfo-react/commit/47549d260751e8b651f41d9e3d665ee1660d035c))
+* update react effect rule ([#52](https://github.com/cheminfo/eslint-config-cheminfo-react/issues/52)) ([e47a69e](https://github.com/cheminfo/eslint-config-cheminfo-react/commit/e47a69e1de89f6f11f2f825263e6fb3a1d16775f))
+
 ## [16.0.2](https://github.com/cheminfo/eslint-config-cheminfo-react/compare/v16.0.1...v16.0.2) (2025-05-22)
 
 
