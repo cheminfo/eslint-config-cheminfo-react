@@ -41,8 +41,10 @@ export default defineConfig(
     rules: {
       'react-you-might-not-need-an-effect/you-might-not-need-an-effect': 'warn',
       'no-restricted-globals': ['error', ...restrictedGlobals],
-      'react-hooks/rules-of-hooks': 'error',
+
       'react-hooks/exhaustive-deps': 'error',
+      'react-hooks/react-compiler': 'error',
+      'react-hooks/rules-of-hooks': 'error',
 
       'react-refresh/only-export-components': 'error',
 
@@ -83,7 +85,7 @@ export default defineConfig(
       'react/jsx-no-duplicate-props': ['error', { ignoreCase: true }],
       // TODO: enable when https://github.com/jsx-eslint/eslint-plugin-react/issues/3292 is fixed.
       'react/jsx-no-leaked-render': 'off',
-      'react/jsx-no-target-blank': 'error',
+      'react/jsx-no-target-blank': ['error', { allowReferrer: true }],
       'react/jsx-no-undef': 'error',
       'react/jsx-no-useless-fragment': ['error', { allowExpressions: true }],
       'react/jsx-pascal-case': ['error', { allowAllCaps: true }],

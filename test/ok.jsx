@@ -1,3 +1,9 @@
 export default function MyComponent() {
-  return <div>Hello world</div>;
+  return (
+    <div>
+      <a href="https://example.com/" target="_blank" rel="noopener">
+        External link
+      </a>
+    </div>
+  );
 }
