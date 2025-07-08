@@ -1,5 +1,16 @@
 # Changelog
 
+## [17.0.0](https://github.com/cheminfo/eslint-config-cheminfo-react/compare/v16.1.0...v17.0.0) (2025-07-08)
+
+
+### ⚠ BREAKING CHANGES
+
+* update base config (adds vitest rules) and react-you-might-not-need-an-effect plugin ([#55](https://github.com/cheminfo/eslint-config-cheminfo-react/issues/55))
+
+### Features
+
+* update base config (adds vitest rules) and react-you-might-not-need-an-effect plugin ([#55](https://github.com/cheminfo/eslint-config-cheminfo-react/issues/55)) ([ea25a28](https://github.com/cheminfo/eslint-config-cheminfo-react/commit/ea25a2843d823a31e0b940dc4eb033f1bd7296e9))
+
 ## [16.1.0](https://github.com/cheminfo/eslint-config-cheminfo-react/compare/v16.0.2...v16.1.0) (2025-06-12)
 
 
