@@ -39,7 +39,17 @@ export default defineConfig(
       linkComponents: [{ name: 'Link', linkAttribute: 'to' }],
     },
     rules: {
-      'react-you-might-not-need-an-effect/you-might-not-need-an-effect': 'warn',
+      // https://github.com/NickvanDyke/eslint-plugin-react-you-might-not-need-an-effect#-rules
+      'react-you-might-not-need-an-effect/no-derived-state': 'warn',
+      'react-you-might-not-need-an-effect/no-chain-state-updates': 'warn',
+      'react-you-might-not-need-an-effect/no-initialize-state': 'warn',
+      'react-you-might-not-need-an-effect/no-event-handler': 'warn',
+      'react-you-might-not-need-an-effect/no-pass-live-state-to-parent': 'warn',
+      'react-you-might-not-need-an-effect/no-reset-all-state-when-a-prop-changes':
+        'warn',
+      'react-you-might-not-need-an-effect/no-manage-parent': 'warn',
+      'react-you-might-not-need-an-effect/no-empty-effect': 'warn',
+
       'no-restricted-globals': ['error', ...restrictedGlobals],
 
       'react-hooks/exhaustive-deps': 'error',
