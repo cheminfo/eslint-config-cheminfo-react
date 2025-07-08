@@ -52,13 +52,13 @@ test('you might not need an effect', async () => {
 
   const warnings = result.messages.filter(isWarning).filter(excludeJsdoc);
   assert.deepStrictEqual(warnings.map(getRuleId).sort(), [
-    'react-you-might-not-need-an-effect/you-might-not-need-an-effect',
+    'react-you-might-not-need-an-effect/no-derived-state',
   ]);
 
   assert.deepStrictEqual(
     getRuleMessageIds(
       warnings,
-      'react-you-might-not-need-an-effect/you-might-not-need-an-effect',
+      'react-you-might-not-need-an-effect/no-derived-state',
     ),
     ['avoidDerivedState'],
   );
