@@ -1,5 +1,12 @@
 # Changelog
 
+## [17.0.1](https://github.com/cheminfo/eslint-config-cheminfo-react/compare/v17.0.0...v17.0.1) (2025-07-24)
+
+
+### Bug Fixes
+
+* update react effect plugin ([#57](https://github.com/cheminfo/eslint-config-cheminfo-react/issues/57)) ([9e1e12c](https://github.com/cheminfo/eslint-config-cheminfo-react/commit/9e1e12c30d177024a05894d3ca4418077eb0603a))
+
 ## [17.0.0](https://github.com/cheminfo/eslint-config-cheminfo-react/compare/v16.1.0...v17.0.0) (2025-07-08)
 
 
