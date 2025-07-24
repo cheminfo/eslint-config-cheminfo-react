@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-cheminfo-react",
-  "version": "17.0.0",
+  "version": "17.0.1",
   "description": "Shared ESLint config for projects using React",
   "type": "module",
   "exports": {
