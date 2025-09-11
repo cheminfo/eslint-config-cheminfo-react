@@ -1,5 +1,16 @@
 # Changelog
 
+## [18.0.0](https://github.com/cheminfo/eslint-config-cheminfo-react/compare/v17.0.1...v18.0.0) (2025-09-11)
+
+
+### ⚠ BREAKING CHANGES
+
+* update base config and react-you-might-not-need-an-effect plugin ([#59](https://github.com/cheminfo/eslint-config-cheminfo-react/issues/59))
+
+### Features
+
+* update base config and react-you-might-not-need-an-effect plugin ([#59](https://github.com/cheminfo/eslint-config-cheminfo-react/issues/59)) ([fdc96bf](https://github.com/cheminfo/eslint-config-cheminfo-react/commit/fdc96bf45df88980c256014f3e2a0717efc35b5f))
+
 ## [17.0.1](https://github.com/cheminfo/eslint-config-cheminfo-react/compare/v17.0.0...v17.0.1) (2025-07-24)
 
 
