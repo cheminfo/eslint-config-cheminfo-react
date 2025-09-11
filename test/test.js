@@ -29,7 +29,7 @@ test('not ok', async () => {
   const [result] = await eslint.lintFiles('test/not_ok.jsx');
 
   assert.deepStrictEqual(
-    result.messages.filter(isError).map(getRuleId).sort(),
+    result.messages.filter(isError).map(getRuleId).toSorted(),
     [
       // React is defined but never used
       'no-unused-vars',
@@ -51,7 +51,7 @@ test('you might not need an effect', async () => {
   assert.strictEqual(result.errorCount, 0, 'effect.jsx should have no error');
 
   const warnings = result.messages.filter(isWarning).filter(excludeJsdoc);
-  assert.deepStrictEqual(warnings.map(getRuleId).sort(), [
+  assert.deepStrictEqual(warnings.map(getRuleId).toSorted(), [
     'react-you-might-not-need-an-effect/no-derived-state',
   ]);
 
