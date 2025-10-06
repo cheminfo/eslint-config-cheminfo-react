@@ -1,5 +1,12 @@
 # Changelog
 
+## [18.0.1](https://github.com/cheminfo/eslint-config-cheminfo-react/compare/v18.0.0...v18.0.1) (2025-10-06)
+
+
+### Bug Fixes
+
+* update react-hooks plugin to stable release ([#61](https://github.com/cheminfo/eslint-config-cheminfo-react/issues/61)) ([f29e7e1](https://github.com/cheminfo/eslint-config-cheminfo-react/commit/f29e7e12a7e22c2769620430047f6b22eb8753fd))
+
 ## [18.0.0](https://github.com/cheminfo/eslint-config-cheminfo-react/compare/v17.0.1...v18.0.0) (2025-09-11)
 
 
