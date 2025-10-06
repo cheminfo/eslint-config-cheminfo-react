@@ -55,9 +55,27 @@ export default defineConfig(
 
       'no-restricted-globals': ['error', ...restrictedGlobals],
 
+      // Rules of hooks
       'react-hooks/exhaustive-deps': 'error',
-      'react-hooks/react-compiler': 'error',
       'react-hooks/rules-of-hooks': 'error',
+      // Compiler-related rules
+      'react-hooks/component-hook-factories': 'error',
+      'react-hooks/config': 'error',
+      'react-hooks/error-boundaries': 'error',
+      'react-hooks/gating': 'error',
+      'react-hooks/globals': 'error',
+      'react-hooks/immutability': 'error',
+      // TODO: enable when we start using the React compiler.
+      'react-hooks/incompatible-library': 'off',
+      // TODO: enable when we start using the React compiler.
+      'react-hooks/preserve-manual-memoization': 'off',
+      'react-hooks/purity': 'error',
+      'react-hooks/refs': 'error',
+      'react-hooks/set-state-in-effect': 'error',
+      'react-hooks/set-state-in-render': 'error',
+      'react-hooks/static-components': 'error',
+      'react-hooks/unsupported-syntax': 'error',
+      'react-hooks/use-memo': 'error',
 
       'react-refresh/only-export-components': 'error',
 

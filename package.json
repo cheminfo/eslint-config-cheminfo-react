@@ -34,9 +34,9 @@
   "dependencies": {
     "eslint-config-cheminfo": "^16.0.0",
     "eslint-plugin-react": "^7.37.5",
-    "eslint-plugin-react-hooks": "^6.0.0-rc.2",
-    "eslint-plugin-react-refresh": "^0.4.20",
-    "eslint-plugin-react-you-might-not-need-an-effect": "^0.5.0",
+    "eslint-plugin-react-hooks": "^6.1.1",
+    "eslint-plugin-react-refresh": "^0.4.23",
+    "eslint-plugin-react-you-might-not-need-an-effect": "^0.5.6",
     "globals": "^16.4.0"
   },
   "peerDependencies": {

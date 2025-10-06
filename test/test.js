@@ -34,7 +34,7 @@ test('not ok', async () => {
       // React is defined but never used
       'no-unused-vars',
       'react-hooks/exhaustive-deps',
-      'react-hooks/react-compiler',
+      'react-hooks/immutability',
       'react/jsx-no-target-blank',
     ],
   );
