@@ -48,7 +48,11 @@ test('not ok', async () => {
 
 test('you might not need an effect', async () => {
   const [result] = await eslint.lintFiles('test/effect.jsx');
-  assert.strictEqual(result.errorCount, 0, 'effect.jsx should have no error');
+
+  const errors = result.messages.filter(isError);
+  assert.deepStrictEqual(errors.map(getRuleId).toSorted(), [
+    'react-hooks/set-state-in-effect',
+  ]);
 
   const warnings = result.messages.filter(isWarning).filter(excludeJsdoc);
   assert.deepStrictEqual(warnings.map(getRuleId).toSorted(), [

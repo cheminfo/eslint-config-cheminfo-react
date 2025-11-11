@@ -26,9 +26,9 @@ export default defineConfig(
         },
       },
     },
+    extends: [reactHooks.configs.flat.recommended],
     plugins: {
       react,
-      'react-hooks': reactHooks,
       'react-refresh': reactRefresh,
       'react-you-might-not-need-an-effect': reactEffects,
     },
@@ -40,42 +40,14 @@ export default defineConfig(
     },
     rules: {
       // https://github.com/NickvanDyke/eslint-plugin-react-you-might-not-need-an-effect#-rules
-      'react-you-might-not-need-an-effect/no-derived-state': 'warn',
-      'react-you-might-not-need-an-effect/no-chain-state-updates': 'warn',
-      'react-you-might-not-need-an-effect/no-initialize-state': 'warn',
-      'react-you-might-not-need-an-effect/no-event-handler': 'warn',
-      'react-you-might-not-need-an-effect/no-adjust-state-on-prop-change':
-        'warn',
-      'react-you-might-not-need-an-effect/no-reset-all-state-on-prop-change':
-        'warn',
-      'react-you-might-not-need-an-effect/no-pass-live-state-to-parent': 'warn',
-      'react-you-might-not-need-an-effect/no-pass-data-to-parent': 'warn',
-      'react-you-might-not-need-an-effect/no-manage-parent': 'warn',
-      'react-you-might-not-need-an-effect/no-empty-effect': 'warn',
+      ...reactEffects.configs.recommended.rules,
 
       'no-restricted-globals': ['error', ...restrictedGlobals],
 
-      // Rules of hooks
-      'react-hooks/exhaustive-deps': 'error',
-      'react-hooks/rules-of-hooks': 'error',
-      // Compiler-related rules
-      'react-hooks/component-hook-factories': 'error',
-      'react-hooks/config': 'error',
-      'react-hooks/error-boundaries': 'error',
-      'react-hooks/gating': 'error',
-      'react-hooks/globals': 'error',
-      'react-hooks/immutability': 'error',
+      // https://react.dev/reference/eslint-plugin-react-hooks
+      'react-hooks/exhaustive-deps': 'error', // Is warn in the preset.
       // TODO: enable when we start using the React compiler.
-      'react-hooks/incompatible-library': 'off',
-      // TODO: enable when we start using the React compiler.
-      'react-hooks/preserve-manual-memoization': 'off',
-      'react-hooks/purity': 'error',
-      'react-hooks/refs': 'error',
-      'react-hooks/set-state-in-effect': 'error',
-      'react-hooks/set-state-in-render': 'error',
-      'react-hooks/static-components': 'error',
-      'react-hooks/unsupported-syntax': 'error',
-      'react-hooks/use-memo': 'error',
+      'react-hooks/preserve-manual-memoization': 'warn',
 
       'react-refresh/only-export-components': 'error',
 
