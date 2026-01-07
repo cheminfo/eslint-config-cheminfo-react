@@ -1,5 +1,12 @@
 # Changelog
 
+## [19.0.1](https://github.com/cheminfo/eslint-config-cheminfo-react/compare/v19.0.0...v19.0.1) (2026-01-07)
+
+
+### Bug Fixes
+
+* update eslint-plugin-react-you-might-not-need-an-effect to v0.8.x ([#65](https://github.com/cheminfo/eslint-config-cheminfo-react/issues/65)) ([918c62e](https://github.com/cheminfo/eslint-config-cheminfo-react/commit/918c62e41e8769ccdbb01d49ec40640a85d844a5))
+
 ## [19.0.0](https://github.com/cheminfo/eslint-config-cheminfo-react/compare/v18.0.1...v19.0.0) (2025-11-11)
 
 
