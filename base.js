@@ -1,7 +1,7 @@
 import { defineConfig } from 'eslint/config';
 import react from 'eslint-plugin-react';
 import reactHooks from 'eslint-plugin-react-hooks';
-import reactRefresh from 'eslint-plugin-react-refresh';
+import { reactRefresh } from 'eslint-plugin-react-refresh';
 import reactEffects from 'eslint-plugin-react-you-might-not-need-an-effect';
 import globals from 'globals';
 
@@ -29,7 +29,7 @@ export default defineConfig(
     extends: [reactHooks.configs.flat.recommended],
     plugins: {
       react,
-      'react-refresh': reactRefresh,
+      'react-refresh': reactRefresh.plugin,
       'react-you-might-not-need-an-effect': reactEffects,
     },
     settings: {
