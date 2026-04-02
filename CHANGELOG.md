@@ -1,5 +1,12 @@
 # Changelog
 
+## [19.2.0](https://github.com/cheminfo/eslint-config-cheminfo-react/compare/v19.1.0...v19.2.0) (2026-04-02)
+
+
+### Features
+
+* update dependencies ([#76](https://github.com/cheminfo/eslint-config-cheminfo-react/issues/76)) ([92051aa](https://github.com/cheminfo/eslint-config-cheminfo-react/commit/92051aa3c7c7765f0347838811301fe044264bb6))
+
 ## [19.1.0](https://github.com/cheminfo/eslint-config-cheminfo-react/compare/v19.0.1...v19.1.0) (2026-01-20)
 
 
