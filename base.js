@@ -49,7 +49,10 @@ export default defineConfig(
       // TODO: enable when we start using the React compiler.
       'react-hooks/preserve-manual-memoization': 'warn',
 
-      'react-refresh/only-export-components': 'error',
+      'react-refresh/only-export-components': [
+        'error',
+        { extraHOCs: ['styled'] },
+      ],
 
       // https://github.com/jsx-eslint/eslint-plugin-react
       // Last rules review: v7.32.2
