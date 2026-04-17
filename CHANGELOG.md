@@ -1,5 +1,12 @@
 # Changelog
 
+## [20.0.1](https://github.com/cheminfo/eslint-config-cheminfo-react/compare/v20.0.0...v20.0.1) (2026-04-17)
+
+
+### Bug Fixes
+
+* **react-refresh:** allow styled components ([#80](https://github.com/cheminfo/eslint-config-cheminfo-react/issues/80)) ([27b7716](https://github.com/cheminfo/eslint-config-cheminfo-react/commit/27b771614b36ad6a8c9cac50b3d27ca32e92fc08))
+
 ## [20.0.0](https://github.com/cheminfo/eslint-config-cheminfo-react/compare/v19.2.0...v20.0.0) (2026-04-15)
 
 
