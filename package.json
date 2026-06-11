@@ -34,17 +34,17 @@
   "dependencies": {
     "eslint-config-cheminfo": "^18.0.0",
     "eslint-plugin-react": "^7.37.5",
-    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-react-hooks": "^7.1.1",
     "eslint-plugin-react-refresh": "^0.5.2",
-    "eslint-plugin-react-you-might-not-need-an-effect": "^0.9.3",
-    "globals": "^17.5.0"
+    "eslint-plugin-react-you-might-not-need-an-effect": "^1.0.0",
+    "globals": "^17.6.0"
   },
   "peerDependencies": {
     "eslint": "^9.39.1"
   },
   "devDependencies": {
     "eslint": "9.39.1",
-    "prettier": "^3.8.3",
+    "prettier": "^3.8.4",
     "react": "^18.3.1"
   }
 }
