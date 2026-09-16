@@ -1,0 +1,4 @@
+{
+  "extends": "@zakodium/tsconfig/jsx",
+  "include": ["test"]
+}
