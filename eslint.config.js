@@ -1,5 +1,6 @@
 import { defineConfig } from 'eslint/config';
+import ts from 'eslint-config-cheminfo-typescript';
 
-import react from './index.js';
+import react from './configs/index.js';
 
-export default defineConfig(react);
+export default defineConfig(ts, react);
