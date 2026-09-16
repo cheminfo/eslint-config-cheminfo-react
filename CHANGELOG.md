@@ -1,5 +1,12 @@
 # Changelog
 
+## [21.0.1](https://github.com/cheminfo/eslint-config-cheminfo-react/compare/v21.0.0...v21.0.1) (2026-09-16)
+
+
+### Bug Fixes
+
+* extend name replacements allow list from base config ([#89](https://github.com/cheminfo/eslint-config-cheminfo-react/issues/89)) ([4a5b922](https://github.com/cheminfo/eslint-config-cheminfo-react/commit/4a5b9222fcbae28f0480ecb0e8b870b59726c749))
+
 ## [21.0.0](https://github.com/cheminfo/eslint-config-cheminfo-react/compare/v20.1.0...v21.0.0) (2026-09-16)
 
 
