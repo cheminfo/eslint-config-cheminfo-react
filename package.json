@@ -5,7 +5,8 @@
   "type": "module",
   "exports": {
     ".": "./configs/index.js",
-    "./base": "./configs/base.js"
+    "./base": "./configs/base.js",
+    "./utilities": "./configs/utilities.js"
   },
   "files": [
     "configs"
@@ -31,7 +32,7 @@
   "homepage": "https://github.com/cheminfo/eslint-config-cheminfo-react#readme",
   "dependencies": {
     "@eslint-react/eslint-plugin": "^5.19.1",
-    "eslint-config-cheminfo": "^19.0.1",
+    "eslint-config-cheminfo": "^19.1.0",
     "eslint-plugin-react-hooks": "^7.1.1",
     "eslint-plugin-react-refresh": "^0.5.7",
     "eslint-plugin-react-you-might-not-need-an-effect": "^1.0.2",
@@ -45,7 +46,7 @@
     "@zakodium/tsconfig": "^1.0.5",
     "eslint": "10.10.0",
     "eslint-config-cheminfo-typescript": "^23.0.0",
-    "prettier": "^3.9.6",
+    "prettier": "^3.9.7",
     "react": "^18.3.1",
     "typescript": "^6.0.3"
   }
