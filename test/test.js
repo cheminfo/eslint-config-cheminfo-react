@@ -19,10 +19,14 @@ const eslint = new ESLint();
 
 test('ok', async () => {
   const [result] = await eslint.lintFiles('test/ok.jsx');
-  assert.strictEqual(result.errorCount, 0, 'ok.jsx should have no error');
-  assert.strictEqual(
-    result.messages.filter(isNotJsdoc).length,
-    0,
+  assert.deepStrictEqual(
+    result.messages.filter(isError),
+    [],
+    'ok.jsx should have no error',
+  );
+  assert.deepStrictEqual(
+    result.messages.filter(isNotJsdoc),
+    [],
     'ok.jsx should have no warning',
   );
 });

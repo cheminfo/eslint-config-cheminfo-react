@@ -6,6 +6,7 @@ import reactEffects from 'eslint-plugin-react-you-might-not-need-an-effect';
 import globals from 'globals';
 
 import { restrictedGlobals } from './no_restricted_globals.js';
+import { nameReplacements, nameReplacementsAllowList } from './utilities.js';
 
 export default defineConfig(
   // Add the jsx extension to linted files.
@@ -49,19 +50,11 @@ export default defineConfig(
 
       'no-restricted-globals': ['error', ...restrictedGlobals],
 
-      // https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/name-replacements.md#react
       'unicorn/name-replacements': [
         'error',
         {
-          replacements: {
-            param: false,
-            params: false,
-            prev: false,
-            prop: false,
-            props: false,
-            ref: false,
-            refs: false,
-          },
+          replacements: nameReplacements,
+          allowList: nameReplacementsAllowList,
         },
       ],
 
