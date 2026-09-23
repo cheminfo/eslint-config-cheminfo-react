@@ -1,5 +1,12 @@
 # Changelog
 
+## [21.0.2](https://github.com/cheminfo/eslint-config-cheminfo-react/compare/v21.0.1...v21.0.2) (2026-09-23)
+
+
+### Bug Fixes
+
+* disable conflicting `eslint-plugin-react-hooks` rules ([#91](https://github.com/cheminfo/eslint-config-cheminfo-react/issues/91)) ([2f8d8d1](https://github.com/cheminfo/eslint-config-cheminfo-react/commit/2f8d8d10998457f42dcd15c003cb3181649b8f56))
+
 ## [21.0.1](https://github.com/cheminfo/eslint-config-cheminfo-react/compare/v21.0.0...v21.0.1) (2026-09-16)
 
 
