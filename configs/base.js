@@ -27,7 +27,11 @@ export default defineConfig(
         },
       },
     },
-    extends: [eslintReact.configs.strict, reactHooks.configs.flat.recommended],
+    extends: [
+      eslintReact.configs.strict,
+      reactHooks.configs.flat.recommended,
+      eslintReact.configs['disable-conflict-eslint-plugin-react-hooks'],
+    ],
     plugins: {
       'react-refresh': reactRefresh.plugin,
       'react-you-might-not-need-an-effect': reactEffects,
@@ -59,7 +63,6 @@ export default defineConfig(
       ],
 
       // https://react.dev/reference/eslint-plugin-react-hooks
-      'react-hooks/exhaustive-deps': 'error', // Is warn in the preset.
       // TODO: enable when we start using the React compiler.
       'react-hooks/preserve-manual-memoization': 'warn',
 
@@ -71,7 +74,12 @@ export default defineConfig(
       // https://eslint-react.xyz/docs/rules
       '@eslint-react/no-array-index-key': 'warn',
       '@eslint-react/dom-no-unsafe-target-blank': 'error',
-      '@eslint-react/exhaustive-deps': 'error',
+      '@eslint-react/exhaustive-deps': 'error', // Is warn in the preset.
+      '@eslint-react/set-state-in-effect': 'error', // Is warn in the preset.
+      // Equivalent rules to eslint-plugin-react-hooks, but experimental so disabled by default.
+      '@eslint-react/globals': 'error',
+      '@eslint-react/immutability': 'error',
+      '@eslint-react/refs': 'error',
     },
   },
 );

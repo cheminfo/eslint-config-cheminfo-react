@@ -42,10 +42,9 @@ test('not ok - JS', async () => {
     [
       '@eslint-react/dom-no-unsafe-target-blank',
       '@eslint-react/exhaustive-deps',
+      '@eslint-react/immutability',
       // React is defined but never used
       'no-unused-vars',
-      'react-hooks/exhaustive-deps',
-      'react-hooks/immutability',
     ],
   );
 
@@ -83,16 +82,13 @@ test('you might not need an effect', async () => {
   const errors = result.messages.filter(isError);
   assert.deepStrictEqual(
     errors.map(getRuleId).toSorted((a, b) => a.localeCompare(b)),
-    ['react-hooks/set-state-in-effect'],
+    ['@eslint-react/set-state-in-effect'],
   );
 
   const warnings = result.messages.filter(isWarning).filter(isNotJsdoc);
   assert.deepStrictEqual(
     warnings.map(getRuleId).toSorted((a, b) => a.localeCompare(b)),
-    [
-      '@eslint-react/set-state-in-effect',
-      'react-you-might-not-need-an-effect/no-derived-state',
-    ],
+    ['react-you-might-not-need-an-effect/no-derived-state'],
   );
 
   assert.deepStrictEqual(
