@@ -1,5 +1,12 @@
 # Changelog
 
+## [21.0.3](https://github.com/cheminfo/eslint-config-cheminfo-react/compare/v21.0.2...v21.0.3) (2026-11-09)
+
+
+### Bug Fixes
+
+* **unicorn:** extend nameReplacements config ([#93](https://github.com/cheminfo/eslint-config-cheminfo-react/issues/93)) ([e1c1b3a](https://github.com/cheminfo/eslint-config-cheminfo-react/commit/e1c1b3a4731174b7bf32e9cfaf34a643fb989516))
+
 ## [21.0.2](https://github.com/cheminfo/eslint-config-cheminfo-react/compare/v21.0.1...v21.0.2) (2026-09-23)
 
 
