@@ -5,10 +5,13 @@ export default function MyComponent(props) {
     total += i;
   }
 
+  // Verify that the name replacements rule extends the one from cheminfo.
+  const args = 'test';
+
   return (
     <div>
       <a href="https://example.com/" target="_blank" rel="noreferrer noopener">
-        External link {total} ({props.test})
+        External link {total} ({props.test}) {args}
       </a>
     </div>
   );
